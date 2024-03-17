@@ -2,7 +2,7 @@ from flask import Flask
 
 def create_app():
     app = Flask(__name__)
-    app.config['SECRET_KDY'] = 'dkjf@ndkf$%kdjdjklfanj38f#'
+    app.config['SECRET_KDY'] = 'dkjf@ndkf$% kdjdjklfanj38f#'
 
     from .views import views
     from .auth import auth
